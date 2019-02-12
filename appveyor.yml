@@ -9,7 +9,7 @@ environment:
 install:
   - npm install yarn -g
   - yarn
-  - yarn install-all
+  - yarn install
 
 test_script:
   - node --version
